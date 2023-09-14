@@ -1,0 +1,506 @@
+@media all and (min-width:1200px){
+    #wrap{
+        width: 100%;
+    }
+    header{
+        height: 100px;
+        background-color: transparent;
+    }
+
+    header .h_wrap{
+       width: 1200px;
+       margin: 0 auto;
+       padding: 1vw 2vw;
+       display: flex;
+       justify-content: space-between;
+       height: 95px;
+       align-items: unset;
+
+    }
+
+
+
+    header h1 img{
+        width: 220px;
+        z-index: 999;
+    }
+    
+    header button{
+        display: none;
+    }
+    
+
+    .all_btn img{
+        display: none;
+    }
+
+    aside{
+        padding: 0;
+        margin: 0;
+        /*    top: 0;*/
+    position: unset;
+    width: 66%;
+    height: 95px;
+    z-index: 99;
+    align-items: center;
+    overflow-y: unset;
+    background: none;
+    /* overflow-y: scroll; */
+    /* backdrop-filter: blur(15px
+    px
+    ); */
+        /* background-color: rgba(255, 255, 255, 0.57); */
+    }
+    section{
+        margin: 0;
+        padding: 0;
+    }
+
+    aside .close{
+        display: none;
+    }
+    
+    nav{
+    
+    }
+
+    #wrap nav ul{
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    #wrap nav ul li {
+        border-bottom: none;        
+        padding: 0;
+        font-weight: 600;
+        font-size: 18px;
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+    nav{
+        text-align: center;
+        font-size: 22px;
+        margin-top:20px;
+    }
+    nav>ul>li:last-child{
+        margin-right: 0;
+    }
+
+    /*-----------------------------------------*/
+    /*-----------------banner------------------*/
+
+    #wrap .banner{
+        height: 100vh;
+        background-color: #333;
+        overflow: hidden;
+    }
+    #wrap .banner .text{
+        text-align: left;
+        padding-left: 10%;
+     font-size: 1vw;
+        padding-top: 20%;
+    }
+
+    #wrap .banner .text h1{
+    font-size: 3vw;
+    }
+    #wrap .banner .text p{
+    font-size: 2vw;
+    }
+
+    #wrap .banner video {
+    width: auto; 
+    height: initial;
+    /* height: 100vh; */
+    max-width: none;
+    max-height: none;
+    opacity: .9;
+    }
+
+    #wrap .btn{
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+    /*-----------------banner------------------*/
+    /*-----------------------------------------*/
+
+    #s1{
+        width: 100%;
+        height: 100%;
+        margin-top: 5%;
+    }
+
+    #s1 .inner{
+        margin: 0;
+        height: auto;
+        padding: 3vw;
+        /*        margin: 50px auto 130px auto;
+       width:1200px;*/ 
+
+       }
+    
+    #s1 .inner .con{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 10vw;
+    }
+
+    #s1 .inner .con .row2 h2 {
+    margin: 0 0 0 4vw;
+    }
+
+    #s1 .inner .con .row1{
+        width: 42%;
+        height: 25vw;
+        background-size: 37%;
+        background-position-x: 109%;
+        background-position-y: 84%;
+        padding: 6vw 4vw 5vw 4vw;
+    }
+    
+    #s1 .inner .con .row1 .text{
+    
+    }
+    #s1 .inner .con .row1 .text h2{
+        font-size: 2vw;
+        margin-bottom: 1vw;
+    }
+    #s1 .inner .con .row1 .text p{
+        font-size: 1.2vw;
+    }
+    
+  
+    #s1 .row1 button {
+        margin-top: 1.3vw;
+    }
+    #s1 .row1 button {
+        font-size: 1vw;
+    }
+    #s1 .row1 button span{
+    }
+    #s1 .row1 button span::after {
+    width: .8vw;
+    height: .8vw;
+    margin-left: .5vw;
+    }
+
+    #s1 .inner .con .row2{
+        width: 42%;
+        margin: 0;
+        padding: 0;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    #s1 .row2 img {
+    height: auto;
+    width: 80%;
+    margin-left: 4vw;
+}
+#s1 .row2 .text ul {
+    margin-top: 1vw;
+    font-size: 1.2vw;
+}
+
+    /*
+    #s1 .inner .con{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        line-height: 1.2;
+    }
+    #wrap #s1 .inner .con .row1{
+        background-color: #f6f6f6;
+        border-radius: 36px;
+        width: 35vw;
+        height: 26vw;
+        background-image: url(../images/sun.png);
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: 41%;
+        background-position-x: 113%;
+        background-position-y: 60%;
+        padding: 5vw 3vw;
+        margin-left: 2vw;
+    }
+
+    #wrap #s1 .inner .con .row1 h2{
+        font-size: 2vw;
+        margin-bottom: 2vw;
+    }
+
+    #wrap #s1 .inner .con .row1 p{
+        font-size: 1.2vw;
+        margin-bottom: 3vw;
+    }
+    #wrap #s1 .inner .con .row2{
+        background-color: transparent
+        width: 35vw;
+        height: 26vw;
+        padding: 5vw 3vw;
+    }
+
+    #wrap #s1 .inner .con .row2 img{
+        height: 7vw;
+        border-radius: 23px;
+        margin-bottom: 1vw;
+        margin-top: 1vw;
+    }
+    #wrap #s1 .inner .con .row2 h2{
+        font-size: 2vw;
+    }
+    #wrap #s1 .inner .con .row2 h2 span{
+        font-weight: 300;
+        font-size: 1vw;
+        opacity: .7;
+    }
+    #wrap #s1 .row2 .text{
+        margin-left: 1vw;
+        display: flex;
+        justify-content: left;
+    }
+
+
+    #s1 .row2 ul li{
+        margin-bottom: 6px;
+    }
+    
+    #s1 .row2 ul:first-child li{
+        list-style: circle;
+    }
+    #s1 .row2 ul:nth-child(2) li{
+        margin-left: 3vw;
+        font-weight: 600;
+    
+    }
+    #s1 .row1 button{
+        font-weight: 600;
+        font-family: 'Pre';
+        width: 10vw;
+        padding: 11px;
+        border-radius: 52px;
+        border: 2px solid #333;
+        text-align: center;
+        align-items: center;
+    }
+    #s1 .row1 button span::after {
+        content: '';
+        display: inline-block;
+        width: 1vw;
+        height: 1vw;
+        background: url(../images/icon_arrow.svg) no-repeat center/cover;
+        margin-left: 1vw;
+    }
+
+    #s1 .row1 button span::before {
+        display: block;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+section        height: 0px;
+        width: 100%;
+        z-index: -1;
+        content: '';
+        color: #000 !important;
+        background: #09847F;
+        transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+    }*/
+    
+/* ---- s2 --- */
+   #wrap #s2{
+    margin-left: 4vw;
+    padding-top: 5vw;
+    width: 1200px;
+    height: 100%;
+    margin: 50px auto 130px auto;
+    }
+    #s2 .inner{
+    }
+    #s2 .inner .title{}
+    #s2 .inner .title h1{
+        font-family: 'Montserrat';
+        font-size: 3vw;
+        margin-bottom: 1vw;
+    }
+    #s2 .inner .title span{
+        font-size: 1.3vw;
+    }
+
+    #wrap #s2 .slide{
+        display: flex;
+        overflow: hidden;
+        width: 100%;
+        margin-top: 5vw;
+        align-items: unset;
+    }
+
+    #wrap #s2 .slide .item{
+        margin-left: 1.5vw;
+        margin-right: 1.5vw;
+        width: 20%;
+        padding-top: 1vw;    
+        padding: 0;
+}
+    
+    #s2 .slide .item:nth-child(2) img,
+    #s2 .slide .item:nth-child(4) img{
+    width: 17vw;
+    height: 9vw;
+    }
+    #wrap #s2 .inner .slide li img {
+    border-radius: 12px;
+    }
+
+    #wrap #s2 .inner .slide .item .subtitle {
+        margin-top: 2vw;
+    }
+    #s2 .slide .item .subtitle {
+        color: #333;
+        width: 85%;
+    }
+    #s2 .slide .item .subtitle h2{
+        font-size: 1.2vw;
+        font-weight: 600;
+        margin-bottom: 2vw;
+        margin-top: 1vw;
+       
+        
+    }
+    #s2 .slide .item .subtitle p{
+        font-size: 1vw;
+        font-weight: 300;
+        
+    }
+    #wrap #s2 .slide .item img{
+        width: 15vw;
+        /*height: 15vw;*/
+    }
+
+
+    #wrap #s2 .row{
+        display: flex;
+        justify-content: center;
+    }
+    #wrap #s2 .row div{
+        font-size: 22px;
+        margin: 0;
+        width: 40vw;
+        margin-top: 5vw;
+        border-radius: 12px;
+    }
+    #wrap #s2 .row .btn1{
+        margin-right: 10px;
+        
+       }
+    #s2 .row .btn2{
+
+ }
+
+/* --- s3 --- */
+    #s3 {
+        width: 100%;
+        height: 80vh;
+        background-image: url(../images/s3-bg.jpg);
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+        color: rgba(255, 255, 255, 0.7);
+    }
+    
+    #s3 .textWrap{
+        position: absolute;
+        top: 50%;
+        left: 10%;
+    }
+    #s3 .textWrap p{
+        opacity: .8;
+        font-size: 1.5vw;
+        margin-bottom: 10px;
+    }
+    #s3 .textWrap h3{
+        font-size: 2vw;
+    } 
+    
+/* --- footer --- */
+    footer{
+    height: 40vh;
+    width: 1200px;
+    margin: 10px 0 10px 0;
+    
+}
+    footer .fWrap{
+    border: 0;    
+    padding: 4vw 11vw;
+    }
+
+    footer .footertop{
+    display: flex;
+    padding-bottom: 2vw;
+    
+    }
+    footer .fWrap .con1{
+    line-height: 1.5;
+    color: rgba(52, 52, 52, 0.907);
+    font-family:'Montserrat','Pre' ;
+    }
+    footer .fWrap .con1 h1{
+    margin-bottom: 3vw;
+    }
+    footer .fWrap .con1 h1 img{
+    height: 2.4vw;
+    }
+    footer .fWrap .con1 p{
+    font-size: 18px;
+    margin-bottom: 2vw;
+    }
+    footer .fWrap .con1 p span{
+    font-weight: 700;
+    margin-right: 3px;
+    }
+    footer .fWrap .con1 p span:first-child{
+    margin-left: 0px;
+    }
+
+    footer .fWrap .con2{
+    width: 30%;
+    border: 0;
+    }
+    footer .fWrap .con2 ul{
+    display: flex;
+    justify-content: right;
+    margin-top: 1vw;
+    }
+
+    footer .fWrap .con2 ul li{
+        opacity: .7;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    footer .fWrap .con2 ul li i{
+    }
+
+    footer .footerbottom{
+        padding: 3vw;
+    }
+    footer .footerbottom ul{
+    display: flex;
+    justify-content: space-between;
+    }
+    footer .footerbottom ul li{
+    
+    }
+    footer .footerbottom ul li img{
+    height: 27px;
+    }
+}/*--- pc버전 ---*/
